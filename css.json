@@ -1,0 +1,97 @@
+"Flexbox Container": {
+    "prefix": "flex",
+    "body": [
+        "display: flex;",
+        "justify-content: ${1:center};",
+        "align-items: ${2:center};"
+    ],
+    "description": "Create a flexbox container"
+},
+
+"Center Horizontally and Vertically": {
+    "prefix": "pac",
+    "body": [
+        "position: absolute;",
+        "top: 50%;",
+        "left: 50%;",
+        "transform: translate(-50%, -50%);"
+    ],
+    "description": "Center horizontally and vertically with an absolute position"
+},
+
+"Font Weight Property": {
+    "prefix": "fwb",
+    "body": [
+        "font-weight: ${1:bold};"
+    ],
+    "description": "Set font weight property"
+},
+
+"Font Style Property": {
+    "prefix": "fsi",
+    "body": [
+        "font-style: ${1:italic};"
+    ],
+    "description": "Set font style property"
+},
+
+"Text Center": {
+    "prefix": "tac",
+    "body": [
+        "text-align: center;"
+    ],
+    "description": "Center text horizontally"
+},
+
+"Text Justify": {
+    "prefix": "taj",
+    "body": [
+        "text-align: justify;"
+    ],
+    "description": "Justify text"
+},
+
+"Text Underline": {
+    "prefix": "tdu",
+    "body": [
+        "text-decoration: underline;"
+    ],
+    "description": "Underline text"
+},
+
+"Text Uppercase": {
+    "prefix": "ttu",
+    "body": [
+        "text-transform: uppercase;"
+    ],
+    "description": "Transform text to uppercase"
+},
+
+"Text Lowercase": {
+    "prefix": "ttl"
+    "body": [
+        "text-transform: lowercase;"
+    ],
+    "description": "Transform text to lowercase"
+},
+
+"Text Capitalize": {
+    "prefix": "ttc",
+    "body": [
+        "text-transform: capitalize;"
+    ],
+    "description": "Transform text to capitalize"
+},
+
+"Text No Decoration": {
+    "prefix": "td0",
+    "body": [
+        "text-decoration: none;"
+    ],
+    "description": "Remove text decoration"
+}
+
+
+
+
+
